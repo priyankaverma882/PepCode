@@ -1,5 +1,3 @@
-import java.io.*;
-
 import java.util.*;
 
 public class PrintIncreasing {
@@ -8,6 +6,7 @@ public class PrintIncreasing {
     Scanner scn = new Scanner(System.in);
     int n = scn.nextInt();
     printIncreasing(n);
+    scn.close();
   }
 
   public static void printIncreasing(int n) {
