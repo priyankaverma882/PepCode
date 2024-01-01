@@ -1,4 +1,3 @@
-import java.io.*;
 
 import java.util.*;
 
@@ -17,6 +16,7 @@ public class MaxOfArray {
     }
     int max = maxOfArray(a, 0);
     System.out.println(max);
+    scn.close();
 
   }
 
