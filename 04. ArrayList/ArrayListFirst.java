@@ -16,6 +16,6 @@ class ArrayListFirst{
         for(int el : data){
             al.add(el);
         }
-
+        scn.close();
     }
 }

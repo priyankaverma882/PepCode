@@ -27,5 +27,7 @@ public class RemovePrimesusingArraylist {
         }
         solution(al);
         System.out.println(al);
+
+        scn.close();
     }
 }
